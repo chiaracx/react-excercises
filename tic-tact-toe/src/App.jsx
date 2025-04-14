@@ -22,7 +22,7 @@ function App() {
 
   const [mode, setMode] = useState(() => {  
     const modeFromStorage = window.localStorage.getItem('mode')
-    return modeFromStorage ?? 'dark-mode'  
+    return modeFromStorage ?? 'dark-mode'
   })
 
   // null es que no hay ganador, false es que hay un empate
